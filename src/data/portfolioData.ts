@@ -6,7 +6,7 @@ export const PORTFOLIO = {
   github: "https://github.com/JRDadap",
   linkedin: "https://www.linkedin.com/in/john-robin-dadap-0a41211b0/",
   
-  skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "PostgreSQL", "Git"],
+  skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "PostgreSQL", "Git", "JavaScript", "HTML", "CSS"],
   
   projects: [
     {
