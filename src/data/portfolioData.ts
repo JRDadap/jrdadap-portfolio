@@ -30,5 +30,22 @@ export const PORTFOLIO = {
       github: "#",
       live: "#"
     }
+  ],
+
+    about: [
+    {
+      title: "EDUCATION",
+      description: "Graduated B.S in Information System at Integrated Innovation and Hospitality College",
+      tech: ["2019 - 2023"],
+    },
+    {
+      title: "WHO I AM",
+      description: "I am a passionate junior software engineer with a strong foundation in web development. I enjoy creating intuitive and efficient applications that solve real-world problems.",
+    },
+    {
+      title: "HUBBIES",
+      description: "I love to play bass instruments, video games, watch movies, and explore new technologies in my free time.",
+    }
   ]
 };
+  

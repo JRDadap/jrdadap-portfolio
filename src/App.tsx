@@ -4,6 +4,7 @@ import { SkillsSection } from "./components/SkillsSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";
 import { PORTFOLIO } from "./data/portfolioData";
+import { AboutSection } from "./components/AboutSection";
 
 const App = () => {
   const scrollTo = (id: string) => {
@@ -18,9 +19,9 @@ const App = () => {
         name={PORTFOLIO.name}
         title={PORTFOLIO.title}
         bio={PORTFOLIO.bio}
-        onViewWork={() => scrollTo("projects")}
-        onGetInTouch={() => scrollTo("contact")}
+        onLetsStart={() => scrollTo("about")}
       />
+      <AboutSection about={PORTFOLIO.about} />
 
       <SkillsSection skills={PORTFOLIO.skills} />
 
